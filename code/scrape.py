@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import config
 
 
 def get_soup(source) -> object():
@@ -17,7 +18,7 @@ def pogoda_detailed() -> list():
   MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "novenber", "december"]
   for month in MONTHS:
 
-    source = f"data/yandex.ru/pogoda/istanbul/month/{month}.html"
+    source = f"data/yandex.ru/pogoda/{config.CITY}/month/{month}.html"
     soup = get_soup(source=source)
 
     calendar = soup.find_all("div", class_="climate-calendar-day__detailed-container-center")
@@ -44,7 +45,7 @@ def pogoda_detailed() -> list():
 def pogoda_climate_card() -> list():
   """ Scrape yandex pogoda climat card """
 
-  source = f"data/yandex.ru/pogoda/istanbul.html"
+  source = f"data/yandex.ru/pogoda/{config.CITY}.html"
   soup = get_soup(source=source)
 
   pogoda_climate_card = []
