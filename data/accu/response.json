@@ -1,0 +1,274 @@
+{
+  "Headline": {
+    "EffectiveDate": "2023-03-16T01:00:00+03:00",
+    "EffectiveEpochDate": 1678917600,
+    "Severity": 5,
+    "Text": "Среда, поздняя ночь - Четверг, утро: ожидается ливень",
+    "Category": "rain",
+    "EndDate": "2023-03-16T13:00:00+03:00",
+    "EndEpochDate": 1678960800,
+    "MobileLink": "http://www.accuweather.com/ru/tr/istanbul/318251/daily-weather-forecast/318251?unit=c",
+    "Link": "http://www.accuweather.com/ru/tr/istanbul/318251/daily-weather-forecast/318251?unit=c"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2023-03-15T07:00:00+03:00",
+      "EpochDate": 1678852800,
+      "Sun": {
+        "Rise": "2023-03-15T07:17:00+03:00",
+        "EpochRise": 1678853820,
+        "Set": "2023-03-15T19:10:00+03:00",
+        "EpochSet": 1678896600
+      },
+      "Moon": {
+        "Rise": "2023-03-15T02:49:00+03:00",
+        "EpochRise": 1678837740,
+        "Set": "2023-03-15T11:35:00+03:00",
+        "EpochSet": 1678869300,
+        "Phase": "Last",
+        "Age": 23
+      },
+      "Temperature": {
+        "Minimum": {
+          "Value": 9.4,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 16.1,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "RealFeelTemperature": {
+        "Minimum": {
+          "Value": 6.7,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Зябко"
+        },
+        "Maximum": {
+          "Value": 16.1,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Прохладно"
+        }
+      },
+      "RealFeelTemperatureShade": {
+        "Minimum": {
+          "Value": 6.7,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Зябко"
+        },
+        "Maximum": {
+          "Value": 15.6,
+          "Unit": "C",
+          "UnitType": 17,
+          "Phrase": "Прохладно"
+        }
+      },
+      "HoursOfSun": 5,
+      "DegreeDaySummary": {
+        "Heating": {
+          "Value": 5,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Cooling": {
+          "Value": 0,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "AirAndPollen": [
+        {
+          "Name": "AirQuality",
+          "Value": 0,
+          "Category": "Хорошая",
+          "CategoryValue": 1,
+          "Type": "Озон"
+        },
+        {
+          "Name": "Grass",
+          "Value": 0,
+          "Category": "Низк.",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Mold",
+          "Value": 0,
+          "Category": "Низк.",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Tree",
+          "Value": 0,
+          "Category": "Низк.",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "Ragweed",
+          "Value": 0,
+          "Category": "Низк.",
+          "CategoryValue": 1
+        },
+        {
+          "Name": "UVIndex",
+          "Value": 5,
+          "Category": "Умерен.",
+          "CategoryValue": 2
+        }
+      ],
+      "Day": {
+        "Icon": 3,
+        "IconPhrase": "Небольшая облачность",
+        "HasPrecipitation": false,
+        "ShortPhrase": "Теплее",
+        "LongPhrase": "Теплее",
+        "PrecipitationProbability": 1,
+        "ThunderstormProbability": 0,
+        "RainProbability": 1,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "Wind": {
+          "Speed": {
+            "Value": 11.3,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 192,
+            "Localized": "ЮЮЗ",
+            "English": "SSW"
+          }
+        },
+        "WindGust": {
+          "Speed": {
+            "Value": 19.3,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 192,
+            "Localized": "ЮЮЗ",
+            "English": "SSW"
+          }
+        },
+        "TotalLiquid": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Rain": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Snow": {
+          "Value": 0,
+          "Unit": "cm",
+          "UnitType": 4
+        },
+        "Ice": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "HoursOfPrecipitation": 0,
+        "HoursOfRain": 0,
+        "HoursOfSnow": 0,
+        "HoursOfIce": 0,
+        "CloudCover": 41,
+        "Evapotranspiration": {
+          "Value": 1.8,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "SolarIrradiance": {
+          "Value": 5889,
+          "Unit": "W/m²",
+          "UnitType": 33
+        }
+      },
+      "Night": {
+        "Icon": 12,
+        "IconPhrase": "Ливни",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light",
+        "ShortPhrase": "Ливни",
+        "LongPhrase": "Ливни",
+        "PrecipitationProbability": 71,
+        "ThunderstormProbability": 14,
+        "RainProbability": 71,
+        "SnowProbability": 0,
+        "IceProbability": 0,
+        "Wind": {
+          "Speed": {
+            "Value": 11.3,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 335,
+            "Localized": "ССЗ",
+            "English": "NNW"
+          }
+        },
+        "WindGust": {
+          "Speed": {
+            "Value": 17.7,
+            "Unit": "km/h",
+            "UnitType": 7
+          },
+          "Direction": {
+            "Degrees": 335,
+            "Localized": "ССЗ",
+            "English": "NNW"
+          }
+        },
+        "TotalLiquid": {
+          "Value": 2.5,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Rain": {
+          "Value": 2.5,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "Snow": {
+          "Value": 0,
+          "Unit": "cm",
+          "UnitType": 4
+        },
+        "Ice": {
+          "Value": 0,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "HoursOfPrecipitation": 1,
+        "HoursOfRain": 1,
+        "HoursOfSnow": 0,
+        "HoursOfIce": 0,
+        "CloudCover": 92,
+        "Evapotranspiration": {
+          "Value": 0.3,
+          "Unit": "mm",
+          "UnitType": 3
+        },
+        "SolarIrradiance": {
+          "Value": 0,
+          "Unit": "W/m²",
+          "UnitType": 33
+        }
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/ru/tr/istanbul/318251/daily-weather-forecast/318251?day=1&unit=c",
+      "Link": "http://www.accuweather.com/ru/tr/istanbul/318251/daily-weather-forecast/318251?day=1&unit=c"
+    }
+  ]
+}

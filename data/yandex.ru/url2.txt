@@ -1,0 +1,17 @@
+https://yandex.ru/pogoda/istanbul/month/january
+https://yandex.ru/pogoda/istanbul/month/february
+https://yandex.ru/pogoda/istanbul/month/march
+https://yandex.ru/pogoda/istanbul/month/april
+https://yandex.ru/pogoda/istanbul/month/may
+https://yandex.ru/pogoda/istanbul/month/june
+https://yandex.ru/pogoda/istanbul/month/july
+https://yandex.ru/pogoda/istanbul/month/august
+https://yandex.ru/pogoda/istanbul/month/september
+https://yandex.ru/pogoda/istanbul/month/october
+https://yandex.ru/pogoda/istanbul/month/novenber
+https://yandex.ru/pogoda/istanbul/month/december
+https://yandex.ru/pogoda/istanbul/details/weekend
+https://yandex.ru/pogoda/istanbul/details/10-day-weather
+https://yandex.ru/pogoda/istanbul
+https://yandex.ru/weather/ru-RU/istanbul/pollution
+https://yandex.ru/pogoda/istanbul/maps/nowcast
