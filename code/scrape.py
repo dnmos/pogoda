@@ -34,7 +34,10 @@ def pogoda_detailed() -> list():
       humidity = day.find_all("table", class_="climate-calendar-day__detailed-data-table")[0].find_all("td")[3].text
       airflow = day.find_all("table", class_="climate-calendar-day__detailed-data-table")[0].find_all("td")[5].text.split("м/с")[0] + "м/с"
       airflow_direction = day.find_all("table", class_="climate-calendar-day__detailed-data-table")[0].find_all("td")[5].find("abbr").text
-      temp_water = day.find_all("table", class_="climate-calendar-day__detailed-data-table")[0].find_all("td")[7].text
+      try:
+        temp_water = day.find_all("table", class_="climate-calendar-day__detailed-data-table")[0].find_all("td")[7].text
+      except IndexError:
+        temp_water = ""
 
       pogoda_detailed.append((month, dom, month_detailed, dow, img, temp_day, temp_night, temp_feels_like, pressure, 
                               humidity, airflow, airflow_direction, temp_water))
