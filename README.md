@@ -34,3 +34,10 @@ wget -k -p -E --header='Accept: text/html' --user-agent='Mozilla/5.0 (X11; Linux
 0 1 * * * cd /home/www/vi/pogoda/data/ && wget -k -p -E --header='Accept: text/html' --user-agent='Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0' --input-file='url.txt'
 ```
 
+## Запускаем скрипт парсинга в cron
+
+```
+# Go to vi/pogoda/code/ and start main.py
+5 1 * * * cd /home/www/vi/pogoda/ && /home/www/vi/pogoda/env/bin/python3.11 /home/www/vi/pogoda/code/main.py
+```
+
