@@ -74,7 +74,7 @@ def pogoda_additional() -> list():
   MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "novenber", "december"]
   for nom, month in enumerate(MONTHS):
 
-    source = f"data/yandex.ru/pogoda/istanbul/month/{month}.html"
+    source = f"data/yandex.ru/pogoda/{config.CITY}/month/{month}.html"
     soup = get_soup(source=source)
 
     additional = soup.find_all("div", class_="climate-month-additional")[0]
@@ -89,7 +89,10 @@ def pogoda_additional() -> list():
     wind_direction = additional_param[1].find("abbr").text
     mm_of_precipitation = additional_param[2].find("span").text
     mm_of_precipitation_description = additional_param[2].find_all("div", class_="climate-month-additional-param__description-name")[0].text
-    water_temperature = additional_param[3].find("span").text
+    try:
+      water_temperature = additional_param[3].find("span").text
+    except IndexError:
+      water_temperature = ""
 
     pogoda_additional.append((month,
                               climat_card[nom]["month_card"], climat_card[nom]["img_card"], climat_card[nom]["temp_card"],
